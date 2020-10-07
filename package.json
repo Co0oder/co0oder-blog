@@ -1,0 +1,36 @@
+{
+  "name": "markdown-editor",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "app.js",
+  "dependencies": {
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "knex": "^0.21.6",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-markdown": "4.3.1",
+    "react-scripts": "3.0.1",
+    "sqlite3": "^5.0.0",
+    "styled-components": "5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "react-start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
